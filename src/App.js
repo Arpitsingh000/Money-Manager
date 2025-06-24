@@ -18,10 +18,10 @@ function App() {
         <div className="main-content">
           <div className="left-panel">
             <Balance />
+            <BudgetList />
             <TransactionForm />
           </div>
           <div className="right-panel">
-            <BudgetList />
             <TransactionHistory />
           </div>
         </div>
